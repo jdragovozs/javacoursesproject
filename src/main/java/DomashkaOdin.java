@@ -13,7 +13,7 @@ public class DomashkaOdin {
 
     }
 
-        public static void calculateNumberOfStones( int squareOfRoadSurface, int squareOfOneStone) {
+        public static void calculateNumberOfStones( double squareOfRoadSurface, double squareOfOneStone) {
             calculateSquareOfRoadSurfaceCm(500, 3100);
             calculateSquareOfOneStoneCm(20, 40);
             System.out.println(squareOfRoadSurface / squareOfOneStone);
